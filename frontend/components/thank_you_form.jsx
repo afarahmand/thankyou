@@ -6,7 +6,7 @@ class ThankYouForm extends React.Component {
   }
 
   render() {
-    <div>Hello there =)</div>;
+    return <div>Hello there =)</div>;
   }
 }
 
