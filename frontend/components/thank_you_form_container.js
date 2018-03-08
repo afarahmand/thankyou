@@ -1,5 +1,5 @@
 import { connect } from "react-redux";
-import ThankYouForm from "./all_movies";
+import ThankYouForm from "./thank_you_form";
 
 const mapStateToProps = (state, ownProps) => {
   return {};
