@@ -11,7 +11,6 @@ class Api::NotesController < ApplicationController
 
   def show
     @Note = Note.find_by(id: params[:id])
-
     render "api/notes/show"
   end
 end
